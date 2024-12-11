@@ -12,6 +12,8 @@ bin="$(pwd)/$(uname)"
 sshtars="$(pwd)/sshtars"
 echo "Semaphorin | Version 1.0"
 echo "Written by y08wilm and Mineek | Some code and ramdisk from Nathan"
+echo "[*] IF YOU USE PALERA1N/BAKERA1N ROOTFUL (fakefs) OR ANOTHER DUALBOOT TOOL, RESTORE THE DEVICE FIRST"
+echo "[*] THIS SCRIPT DOESNT TAKE INTO ACCOUNT EXTRA PARTITIONS AND WILL BRICK YOUR DEVICE"
 echo ""
 max_args=1
 arg_count=0
